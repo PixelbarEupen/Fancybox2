@@ -5,7 +5,7 @@
 	Author: Adrian Lambertz
 	Description: Erweitert Wordpress ganz simpel um die Fancybox 2. Greift auf alle links mit .jpg oder .png Endung.
 	Plugin URI: https://github.com/PixelbarEupen/Fancybox2
-	Version: 0.1.1
+	Version: 0.1.1.1
 	GitHub Plugin URI: https://github.com/PixelbarEupen/Fancybox2
 	GitHub Access Token: 6ca583973da0e33ee1a6c90c3e4920e6143369ca
 	*/
@@ -38,7 +38,7 @@
 			
 			<script type="text/javascript">
 				jQuery(document).ready(function($){
-					$('a[href*="jpg"], a[href*="png"]').attr('rel','fancybox').fancybox({
+					$('a[href*="jpg"], a[href*="png"]').fancybox({
 						helpers: {
 						    overlay: {
 						      locked: false
