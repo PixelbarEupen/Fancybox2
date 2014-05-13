@@ -38,7 +38,7 @@
 			
 			<script type="text/javascript">
 				jQuery(document).ready(function($){
-					$('a[href*="jpg"], a[href*="png"]').fancybox({
+					$('a[href*="jpg"], a[href*="png"], a[href*="gif"]').fancybox({
 						helpers: {
 						    overlay: {
 						      locked: false
