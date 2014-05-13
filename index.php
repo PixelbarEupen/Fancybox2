@@ -14,7 +14,7 @@
 	/******************************************************************************************/
 	/************************* DO NOT CHANGE ANYTHING AFTER THIS LINE *************************/
 	
-	if(!function_exists(pix_register_fancybox_2)){
+	if(!function_exists('pix_register_fancybox_2')){
 		
 		function pix_register_fancybox_2(){
 			
@@ -32,7 +32,7 @@
 		
 	}
 	
-	if(!function_exists(pix_place_fancy_init)){
+	if(!function_exists('pix_place_fancy_init')){
 		
 		function pix_place_fancy_init(){ ?>
 			
