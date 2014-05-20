@@ -1,5 +1,9 @@
 ### Changelog for Cycle-Slideshow Plugin
 
+#### 0.1.2.0 (20/05/2014)
+* added filter to change fancybox settings, see readme
+
+
 #### 0.1.1.2 (20/05/2014)
 
 *added gif and jpeg autodetection support
